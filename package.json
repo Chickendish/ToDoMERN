@@ -1,0 +1,33 @@
+{
+  "name": "todomern",
+  "version": "1.0.0",
+  "description": "To Do app built with MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chickendish/ToDoMERN.git"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "React",
+    "Node"
+  ],
+  "author": "bill donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chickendish/ToDoMERN/issues"
+  },
+  "homepage": "https://github.com/Chickendish/ToDoMERN#readme",
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2"
+  }
+}
