@@ -7,6 +7,12 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/'
   },
+  devServer: {
+        port: 9000,
+        compress: true,
+        stats: "errors-only",
+        open: true
+    },
   module: {
   rules: [
     { test: /\.js$/, 
